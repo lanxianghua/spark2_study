@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5f43bd4d-daf5-4e58-bb91-ec5222c36a02" name="spark_server" url="http://192.168.138.109">
+        <fileTransfer host="192.168.138.109" port="22" rootFolder="/opt/spark/spark-2.2.0" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
